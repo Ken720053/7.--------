@@ -1,0 +1,42 @@
+.wrap{
+    width: 1400px;
+    margin: 0 auto;
+    border: 1px solid #000;
+}
+.item{
+    display: block;
+    text-align: center;
+    margin-bottom: 320px;
+    margin-top: 298px;
+}
+h1{
+    color:#37523d;
+    margin-top: 32px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+footer img{
+    margin-left: 50px;
+    width: 200px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 60px;
+}
+ul li{
+    margin-right: 24px;
+}
+ul li:last-child{
+    margin-right: 0;
+}
+ul li a{
+    color: #000;
+    display: block;
+    font-size: 16px;
+}
